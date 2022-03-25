@@ -1,0 +1,32 @@
+:root {
+    /**/
+    --font-1: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-2: "Trebuchet MS", Helvetica, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: #286da8 #fff;
+    scrollbar-width: thin;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+#root{
+    font-family:var(--font-1);
+    font-size:1.3rem;
+    display:flex;
+    min-height: 100vh;
+    flex-direction:column;
+}
+
+

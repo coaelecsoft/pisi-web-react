@@ -1,5 +1,5 @@
 window.onload = function () {
-    document.getElementById('layout-100vh').classList.add("anim-start-header");
+   // document.getElementById('layout-100vh').classList.add("anim-start-header");
     console.log("%c- PiSi Dizajn Alex - Web Razvoj, Web Progresive App With HTML5, CSS3, Javascript, PHP&MySQL, Yii2-framework ", "color:#286da8; font-size:30px");
 }
 

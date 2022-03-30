@@ -2,7 +2,7 @@
 import Backimg from './sm_back_web-razvoj--dizajn--programiranje--uputstva--tutorijali--primeri--linkovi.jpg'
 function Hero() {
     return (      
-        <header class="layout-header anim-start-header" id="layout-100vh">
+        <header className="layout-header anim-start-header" id="layout-100vh">
             <figure>
                 <img src={Backimg} alt="web dev"/>
             </figure>

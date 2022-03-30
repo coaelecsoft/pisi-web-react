@@ -1,5 +1,7 @@
 import Nav from './nav'
 import Hero from './hero'
+import Articles from './articles'
+
 //import './App.css';
 function Home() {
     return (
@@ -9,8 +11,7 @@ function Home() {
                 minHeight: "300vh"
             }}>
                 <Hero />
-
-                
+                <Articles/>
         </main>
         </>
     );

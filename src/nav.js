@@ -33,10 +33,8 @@ export default function Nav() {
                 </li>
                 <li>
                     <Link to="/contact">Contact</Link>
-                    </li>
-                    <li>
-                        <Link to="/maps">Maps</Link>
-                    </li>
+                </li>
+                    
             </ul>
             </nav>
             <nav id="go-to-top" className="go-to-top show-up">

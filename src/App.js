@@ -1,20 +1,29 @@
-import { Link } from "react-router-dom";
-import './App.css';
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+} from "react-router-dom";
+import Home from './home';
+import About from './about';
+import Web from './web';
+import Contact from './contact';
+import './App.css'
 
-export default function App() {
+
+function App() {
     return (
-        <div>
-            <h1>Bookkeeper</h1>
-            <nav
-                style={{
-                    borderBottom: "solid 1px",
-                    paddingBottom: "1rem",
-                }}
-            >
-                <Link to="/invoices">Invoices</Link> |{" "}
-                <Link to="/invoices">Invoices</Link> |{" "}
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={< Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/web" element={<Web />} />
+                <Route path="/contact" element={<Contact />} />               
+            </Routes>
+        </BrowserRouter>
 
-            </nav>
-        </div>
+      
+     
     );
 }
+
+export default App;

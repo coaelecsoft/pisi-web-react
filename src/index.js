@@ -1,3 +1,7 @@
 import ReactDOM from 'react-dom';
-import App from './router'
-ReactDOM.render(<App/>, document.getElementById('root'));
+import App from './App'
+import Nav from './nav'
+ReactDOM.render(
+        <App/>,
+    document.getElementById('root')
+);

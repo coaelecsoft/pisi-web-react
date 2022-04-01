@@ -17,9 +17,9 @@ const distanceToMouse = (pt, mp) => {
 };
 
 const points = [
-    { id: 1, title: "Round Pond", lat: 51.506, lng: -0.184 },
-    { id: 2, title: "The Long Water", lat: 51.508, lng: -0.175 },
-    { id: 3, title: "The Serpentine", lat: 51.505, lng: -0.164 }
+    { id: 1, title: "Karaburma", lat: 44.8166634, lng: 20.499998 },
+    { id: 2, title: "Rakovica", lat: 44.7558470366, lng: 20.4391699052 },
+    { id: 3, title: "Centar", lat: 44.7858470366, lng: 20.4591699052 }
 ];
 
 export default function Maps() {
@@ -29,11 +29,11 @@ export default function Maps() {
                 bootstrapURLKeys={{
                     // remove the key if you want to fork
                     key: "AIzaSyBoV4ehpbFW1wb5EvZC34F89VLlczsBjgU",
-                    language: "en",
-                    region: "US"
+                    language: "sr-latn",
+                    region: "RS"
                 }}
-                defaultCenter={{ lat: 51.506, lng: -0.169 }}
-                defaultZoom={15}
+                defaultCenter={{ lat: 44.787197, lng: 20.457273 }}
+                defaultZoom={11}
                 distanceToMouse={distanceToMouse}
             >
                 {points.map(({ lat, lng, id, title }) => {

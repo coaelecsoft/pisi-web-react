@@ -8,7 +8,7 @@ function Home() {
         <>
         <Nav/>
             <main style={{
-                minHeight: "300vh"
+                minHeight: "100vh"
             }}>
                 <Hero />
                 <Articles/>

@@ -8,7 +8,7 @@ function Hero() {
             </figure>
             <div>
                 <h1>Web development backend-frontend</h1>
-                <p>HTML5, CSS3, PHP, javaScript, Yii2, React Express.js...</p>
+                <p>HTML5, CSS3, PHP, javaScript, Yii2, React, Express.js...</p>
             </div>
         </header>   
         );
